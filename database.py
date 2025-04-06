@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, create_engine, Time
+from sqlalchemy import Column, Integer, create_engine, Time
 from sqlalchemy.orm import declarative_base
 from sqlalchemy.sql import func
 from dotenv import load_dotenv
